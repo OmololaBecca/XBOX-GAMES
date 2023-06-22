@@ -584,7 +584,8 @@ position:relative;
           .games-images-div{
             gap:12px;
             overflow-x: scroll;
-            padding: 0 40px;
+            padding: 0 30px;
+            padding-left: 100px;
            
           }
           .images-div img{
@@ -603,9 +604,15 @@ position:relative;
              }
           }
           @media(max-width:600px){
+             .best-seller-div{
+               padding:20px;
+                  
+             }
+    
           
             .Best-Seller-Games .align-move {
-              font-size:22px;
+              font-size:20px;
+              margin-left: 10px;
              }
           .popular-games-flex{
             margin-top: 50px;
@@ -695,7 +702,7 @@ position:relative;
   }
   .fonts-six-div{
     gap:5px;
-    flex-direction:column;
+    flex-direction:row;
   }
   .fonts-six{
     width:30px;
