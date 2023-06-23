@@ -15,6 +15,7 @@ body{
     --swiper-theme-color: #000 !important;
 }
 
+
 .my-carousel{
     width:100%;
     height: 550px;
@@ -120,6 +121,7 @@ font-size:45px;
     padding: 15px !important;
 }
 
+
 .sub-container-two{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -202,26 +204,77 @@ font-size:45px;
 width:130px;
 border-radius: 15px;
 position:relative;
-
+transition: ease-in-out .2s;
 }
 
 .images-div img:hover{
     transform:scale(1.1,1.1);
     cursor:pointer;
+   
      }
 
      .hover-p{
         position:absolute;
         top:55px;
-        left:40px;
+        left:45px;
         color:#ffff;
         font-size: 18px;
         display:none;
+        transition: ease-in-out .2s;
+    }
+
+    .move{
+      position:absolute;
+        top:55px;
+        left:30px;
+        color:#ffff;
+        font-size: 18px;
+        display:none;
+        transition: ease-in-out .2s;
+    }
+    .move-pee{
+      position:absolute;
+        top:55px;
+        left:35px;
+        color:#ffff;
+        font-size: 18px;
+        display:none;
+        transition: ease-in-out .2s;
+    }
+    .hover-pee{
+      position:absolute;
+        top:48px;
+        left:32px;
+        color:#ffff;
+        font-size: 18px;
+        display:none;
+        transition: ease-in-out .2s;
     }
     .images-div img:hover + .hover-p {
        display:block;
          }
+         .images-div img:hover + .hover-pee {
+          display:block;
+            }
+         .images-div img:hover + .move {
+          display:block;
+            }
+            .images-div img:hover + .move-pee {
+              display:block;
+                }
          .hover-p:hover{
+          display: block;
+          cursor: pointer;
+         }
+         .hover-pee:hover{
+          display: block;
+          cursor: pointer;
+         }
+         .move:hover{
+          display: block;
+          cursor: pointer;
+         }
+         .move-pee:hover{
           display: block;
           cursor: pointer;
          }
@@ -250,6 +303,7 @@ position:relative;
             height:230px;
             box-shadow: 3px 3px 3px 3px #ffff;
             background: #fff; 
+            padding-bottom:10px;
          } 
          .image-bs-one{
            width:160px;
