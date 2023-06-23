@@ -233,7 +233,7 @@ position:relative;
          }
          .Best-Seller-Games .align-move {
           font-size:28px;
-          margin-left: 50px;
+          margin-left: 100px;
          
          }  
          .best-seller-div{
@@ -241,9 +241,8 @@ position:relative;
             margin-top: 30px;
             align-items: center;
             justify-content: center;
-            gap:50px;
-            flex-wrap: wrap;
-              
+            gap:85px;
+            flex-wrap: wrap;  
          }
 
          .bs-one{
@@ -604,12 +603,6 @@ position:relative;
              }
           }
           @media(max-width:600px){
-             .best-seller-div{
-               padding:20px;
-                  
-             }
-    
-          
             .Best-Seller-Games .align-move {
               font-size:20px;
               margin-left: 10px;
@@ -703,6 +696,8 @@ position:relative;
   .fonts-six-div{
     gap:5px;
     flex-direction:row;
+    align-items: center;
+    justify-content: center;
   }
   .fonts-six{
     width:30px;
