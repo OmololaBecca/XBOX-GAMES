@@ -14,10 +14,12 @@
 }
 .preloader-logo img{
  width:150px;
+ height:auto;
 }
 @media(max-width:600px){
   .preloader-logo img{
     width:100px;
+    height:auto;
    }
    
 }
@@ -370,11 +372,11 @@ transition: ease-in-out .2s;
             
          }
          .games-button-one button{
-            background: rgb(252, 172, 185);
+            background: rgb(248, 147, 164);
             width:26px;
             height:15px;
             font-size:10px;
-            color:rgb(243, 82, 82);
+            color:rgb(160, 44, 44);
             border:none;
             padding: 1.5px;
 
@@ -607,13 +609,24 @@ transition: ease-in-out .2s;
          
         }
         .my-carousel{
-          height: 500px;
+          width:100%;
+          height: 550px;
+    
+      }
          
-        }
+       
         }
         @media(max-width:600px){
+          .my-carousel{
+            width:100%;
+            height: 550px;
+      
+        }
+                                                        
           .logo{
             margin-left: 20px;
+            width:170px;
+            height:auto;
         }
         .logo img{
           width:100px;
@@ -680,6 +693,7 @@ transition: ease-in-out .2s;
           }
           .images-div img{
           width:120px;
+          height:auto;
           }
           .hover-p{
             top:50px;
@@ -694,6 +708,13 @@ transition: ease-in-out .2s;
              }
           }
           @media(max-width:600px){
+
+
+            .image-bs-one{
+              width:160px;
+              height:auto;
+              
+            }
             .Best-Seller-Games .align-move {
               font-size:20px;
               margin-left: 10px;
